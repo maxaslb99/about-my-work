@@ -262,10 +262,12 @@ margin-left:0;
 }
 
 .About-book h2  {
+  margin-bottom: 20px;
   margin-left: 0;
 
   text-align: center;
 }
+
 .About-book h5  {
   margin-left: 0;
 
@@ -291,6 +293,88 @@ margin-left:0;
   display: flex;
   align-items: center;
 
-  margin-top: -100px;
+  margin-top: -150px;
+}
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: -100px;
+}
+
+.About-book {
+  margin-top: 100px;
+}
+
+.About-book a {
+  margin-bottom: 50px;
+
+  text-align: center;
+
+  color: #FF57F5;
+
+  font-family: 'Apple', sans-serif;
+  font-size: 15px;
+}
+
+.about-3D {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#about-3D  {
+  margin-left: 0;
+
+  text-align: center;
+}
+
+#bild {
+  width:1070px ;
+  height: 698,38px;
+  margin-top: 100px;
+}
+
+.floor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 100px;
+  margin-left: -20px;
+}
+
+.floor a {
+  margin-left: 40px;
+
+  text-decoration: none;
+
+  color: #A29F9F;
+
+  font-family: 'Apple', sans-serif;
+  font-size: 15px;
+}
+
+#interior {
+  width: 356px;
+  height: 519px;
+  margin-left: 20px;
+}
+
+.interior {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 70px;
+  margin-left: -20px;
+}
+
+#interior-on {
+  text-decoration: underline;
+
+  color: #FF57F5;
 }
