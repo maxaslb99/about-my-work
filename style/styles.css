@@ -1,7 +1,14 @@
+@import "hamburgers.css";
 @import "reset.css";
 @import "layout.css";
+@import "secondLayout.css";
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800,900&display=swap&subset=cyrillic,cyrillic-ext');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif; */
 
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Lato', sans-serif; */
