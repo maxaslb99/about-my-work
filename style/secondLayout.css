@@ -131,6 +131,12 @@
   width: 33%;
 }
 
+.readymag-block a, a:visited {
+    text-decoration: underline;
+
+    color: #b6b5f4;
+}
+
 .t-short2{
   width: 100%;
   margin: 50px auto;
