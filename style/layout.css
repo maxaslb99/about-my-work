@@ -491,10 +491,30 @@ footer h5 {
 }
 
 @media all and (max-width: 1439px) {
+  .menu {
+      display: flex;
+      width: 100vw;
+      height: 80vh;
+      flex-direction: column;
+      padding: 10vh 0;
+      justify-content: space-between;
+      bottom: 0
+  }
 
+  .articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vw;
+  }
+
+  .menu-hidden{
+    display: none;
+  }
 
   #hamburger{
     display: block;
+    z-index: 1;
   }
 
   h1{
@@ -513,22 +533,6 @@ footer h5 {
   p{
     font-size: 2em;
     line-height: 24px;
-  }
-
-  .menu {
-    position: fixed;
-    bottom: 0;
-
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-
-    height: 50px;
-
-    background-color: white;
-
-    font-size: 1.4em;
   }
 
   .base-container{
@@ -840,9 +844,6 @@ footer h5 {
       margin: 50px auto;
   }
 
-  #menu {
-    display: none;
-  }
   .panel-left{
     margin-left: 0;
   }

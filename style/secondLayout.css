@@ -304,22 +304,6 @@ footer h5 {
     height: auto;
   }
 
-  .menu {
-    position: fixed;
-    bottom: 0;
-
-    display: none;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-
-    height: 50px;
-
-    background-color: white;
-
-    font-size: 1.4em;
-  }
-
   .base-container{
     width: 90vw;
   }
