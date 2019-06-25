@@ -491,6 +491,9 @@ footer h5 {
 
   font-weight: 400;
 }
+#first-frame {
+  margin-top: 10px;
+}
 
 @media all and (max-width: 1439px) {
   .menu {
@@ -504,7 +507,9 @@ footer h5 {
       height: 80vh;
       padding: 10vh 0;
   }
-
+  #first-frame {
+    margin-top: 0px;
+  }
   .articles {
     display: flex;
     flex-direction: column;

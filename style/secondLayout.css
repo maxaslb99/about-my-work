@@ -470,7 +470,11 @@ footer h5 {
 
     width: 100%;
   }
-
+  .part-of-second-style img, .part-of-second-style p {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  
   .part-of-second-style>div p+img{
     margin-top: 10px;
   }
